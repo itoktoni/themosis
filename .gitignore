@@ -5,9 +5,6 @@ Thumbs.db
 ### Vagrant
 /.vagrant
 
-### Composer
-/vendor/
-
 ### IDE
 /.idea
 
