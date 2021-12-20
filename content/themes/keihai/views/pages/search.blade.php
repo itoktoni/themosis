@@ -64,11 +64,13 @@
                     <div class="col-md-12">
                         <span class="tag-name">Tags : </span>
                         <ul class="tags">
+                            @if(get_the_tags())
                             @foreach(get_the_tags() as $tag)
                             <li>
                                 <a href="{{ url('/tag/'.$tag->slug) }}">{{ $tag->name ?? '' }}</a>
                             </li>
                             @endforeach
+                            @endif
                         </ul>
                     </div>
                 </div>
