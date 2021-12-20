@@ -7,6 +7,4 @@
     @endforeach
 @endif
 
-@include('parts._article')
-
 @endsection
